@@ -3,7 +3,7 @@
 #include <vector>
 #include <ctime>
 
-int threeSum(std::vector<int> vec) {
+int threeSum(std::vector<int> &vec) {
     clock_t start, end;
     start = clock();
     int count = 0, n = vec.size();
