@@ -1,10 +1,11 @@
 #include <iostream>
 #include "LinkedListQueue.h"
 #include "ResizingArrayQueue.h"
-
+#include "QueueWithTwoStacks.h"
 int main() {
     //LinkedListQueue<int> qu;
-    ResizingArrayQueue<int> qu;
+    //ResizingArrayQueue<int> qu;
+    QueueWithTwoStacks<int> qu;
     for (int i = 0; i != 5; ++i)
     {
         qu.push(i + 1);
